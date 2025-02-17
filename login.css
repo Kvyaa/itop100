@@ -1,12 +1,5 @@
 @CHARSET "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-body {
-    font-family: 'Poppins', sans-serif !important;
-}
-
-
 *, ::before, ::after {
 	box-sizing: content-box;
 }
@@ -16,19 +9,19 @@ html,body {
 }
 
 h1 {
-	color: #c25daf;
+	color: #1C94C4;
 	font-size: 1.83rem;
 }
 
 a {
 	text-decoration: none;
-	color: #c25daf;
+	color: #1c94c4;
 	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
 }
 
 a:hover {
 	text-decoration: underline;
-	color: #ada966;
+	color: #ea7d1e;
 }
 
 #login-title {
@@ -37,7 +30,7 @@ a:hover {
 }
 
 #login-body {
-	background: #a3659b;
+	background: #E1E7EC;
 	margin: 0;
 	padding: 0;
 	height: 100%;
@@ -72,7 +65,7 @@ a:hover {
 
 #login-content {
 	padding: 20px;
-	background-color: hsla(250, 40%, 54%, 0.897);
+	background-color: #fff;
 	border: 2px solid #CCD4DB;
 	border-radius: 4px;
 	margin-top: 224px;
@@ -111,7 +104,7 @@ a:hover {
 #login-form-content > div {
 	width: 70%;
 	margin-left: 15%;
-	color: #2710aa;
+	color: #37322f;
 	margin-top: 10px;
 }
 
@@ -122,7 +115,7 @@ a:hover {
 #login-form-content .divider hr {
 	margin: 0.5rem auto;
 	width:40%;
-	background-color: #d471cc;
+	background-color: #E1E7EC;
 }
 
 #login-form-content .divider hr.left {
@@ -165,12 +158,12 @@ a:hover {
 }
 
 #login-submit input.login-submit-secondary, #forgot_pwd_sent input.forgot_pwd_done {
-	background-color: #462753;
-	color: #462753;
+	background-color: #e0e0e0;
+	color: #333a4b;
 }
 
 #login-submit input, #forgot_pwd_sent input{
-	background-color: #2e07dd;
+	background-color: #404B5A;
 	padding: 0.1em 1em;
 	border-radius: 0.25em;
 	width: 100%;
@@ -220,12 +213,12 @@ a:hover {
 }
 
 #login-input .invalid input{
-	border-color: #772121;
+	border-color: #F56565;
 }
 
 
 #login-input .invalid .message, #login-submit.invalid .message {
-	color: #be3d43;
+	color: #F56565;
 	display: inline-block;
 	padding: 5px;
 }
